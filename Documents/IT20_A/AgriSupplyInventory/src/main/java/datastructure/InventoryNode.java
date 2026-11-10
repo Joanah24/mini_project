@@ -1,13 +1,15 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package datastructure;
 
-/**
- *
- * @author Richard
- */
+import model.Product;
+
 public class InventoryNode {
-    
+
+    Product product;
+    InventoryNode next;
+
+    // Constructor
+    public InventoryNode(Product product) {
+        this.product = product;
+        this.next = null;
+    }
 }
